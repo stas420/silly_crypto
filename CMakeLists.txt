@@ -20,6 +20,7 @@ add_executable(${PROJECT_NAME}
     ${PROJECT_SOURCE_DIR}/src/stas_hmac.c
     ${PROJECT_SOURCE_DIR}/src/stas_hmac_drbg.c
     ${PROJECT_SOURCE_DIR}/src/stas_ifc_keygen.c
+    ${PROJECT_SOURCE_DIR}/src/stas_rsa.c
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE inc)

@@ -7,6 +7,8 @@
 
 void stas_secure_zero(void* data, uint64_t len);
 
+uint8_t* stas_read_input_file(const char* const path, uint64_t* out_file_len_p);
+
 typedef enum {
     SUCCESS     = 0x00,
     INVALID_ARG = 0x01,
